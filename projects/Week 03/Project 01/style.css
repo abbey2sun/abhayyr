@@ -1,0 +1,70 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container{
+    margin: 50px 50px 50px 50px;
+}
+
+.nav-button{
+   
+    background-color: #941fca;
+    border-radius: 10px;
+    border:white 2px;
+    height: 40px;
+    width: 150px;
+    color: white;
+}
+
+nav div img{
+    height: 30px;
+}
+
+.grow-list{
+    flex-grow: 2;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.list-item{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    /* background-color: rgb(255, 0, 43); */
+    
+}
+
+.heading-text{
+    margin-top: 100px;
+    color: #941fca;
+    font-size: 50px;
+}
+
+span{
+    color: rgb(8, 0, 255);
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.nav-button-btn{
+
+    background-color: #941fca;
+    border-radius: 10px;
+    border:white 2px;
+    height: 60px;
+    width: 200px;
+    color: white;
+}

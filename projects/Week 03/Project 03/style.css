@@ -1,0 +1,72 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-bottom: 50px ;
+}
+
+nav > div:nth-child(2) {
+    flex-grow: 2;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-button{
+    margin-top: 10px;
+    margin-right: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.search-icon{
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+}
+
+.list-item{
+    list-style-type: none; 
+}
+
+nav div img{
+    height: 30px;
+    width: 100px;
+    margin: 10px 0px 0px 10px;
+}
+
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.square{
+    height: 80px;
+    width: 80px;
+    /* margin: 200px 0px 0px 400px; */
+
+}
+
+.container>section>nav>div:nth-child(2)>.list>.list-item:nth-child(2){
+    background-color: green;
+}
+
+.hero-container>div>img{
+    margin-left: 0px;
+    height: 500px;
+    align-items: flex-start;
+    
+}
